@@ -1,0 +1,74 @@
+ /* Styling body section */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+  /* Styling footer header using the screenshot from 
+ set exercise 1 as a reference and applyng margins*/
+header {
+  background-color: #d3d3d3;
+  padding: 40px;
+  text-align: left;
+  margin: 10px 10px 0;
+  
+}
+
+ /* Styling top-lveel heading */
+header h1 { 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;          
+  font-weight: 700;            
+  letter-spacing: 1px;         
+  margin: 0 0 10px 0;
+}
+
+ /* Styling nav link section */
+nav a {  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem ;
+  margin-right: 15px;
+  color: blue;
+  text-decoration:underline;
+}
+
+
+ /* Styling main section */
+main {
+  padding: 20px;
+}
+
+ /* Styling second and third-level heading */
+h2, h3 {
+  font-family: serif;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+ /* Styling  ul-ol element list */
+ul, ol {
+  margin-left: 20px;
+}
+
+ /* Styling  note box class section */
+.note {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d3d3d3;
+  padding: 20px;
+  margin: 20px 0;
+  
+}
+
+
+ /* Styling footer section using the screenshot from 
+ set exercise 1 as a reference and applyng margins*/
+footer {
+  font-family: serif;
+  font-size: 1.2rem;
+  background-color: #d3d3d3;
+  text-align: left;
+  padding: 20px;
+  margin: 0 10px 10px;
+}
