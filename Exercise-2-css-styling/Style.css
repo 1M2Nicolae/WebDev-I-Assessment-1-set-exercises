@@ -1,0 +1,75 @@
+/* General Page Styling for body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bfbfbf; /* light gray background */
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container */
+.container {
+    max-width: 750px;
+    background-color: #fff;
+    margin: 40px auto;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Styling Heading Sections */
+h1 {
+    font-style: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6rem;
+    color: #3ea000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-style: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    color: #3ea000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 3rem;
+    color: #fff;
+    background-color: #3ea000;
+    padding: 15px 20px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+}
+
+/* Paragraph text styling */
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 1.2em;
+}
+
+/* Highlighting the  box for Did you know? Third section */
+.note {
+    background-color: #3ea000;
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 40px 0;
+}
+
+.note p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 40px;
+}
+
+
