@@ -1,0 +1,119 @@
+/* Stylig the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the heading section */
+h1 {
+    font-size: 5em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 0;
+}
+
+/* Styling navigation section */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: blue;
+}
+
+/*INTRO section styling*/
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px auto;
+    gap: 40px;
+    max-width: 1200px;
+}
+
+.text-intro {
+    flex: 1 1 550px;
+    max-width: 600px;
+}
+
+.text-intro p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Styling the Cow image and caption */
+.Cow_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 500px;
+    max-width: 550px;
+}
+
+.Cow_image img {
+    width: 100%;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.Cow_image figcaption {
+    font-size: 1.2rem;
+    font-family: Georgia, serif;
+    color: #000;
+    text-align: left;
+    width: 90%;
+}
+
+/* Gallery section styling */
+.Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling base media */
+.Gallery img,
+.Gallery video {
+    height: 250px;
+    object-fit: cover;
+    flex-grow: 1;
+    display: block;
+}
+
+/* Stilyng video making it wider */
+.Gallery video {
+    flex-basis: 60%;
+}
+
+/* Applyng a default width to images */
+.Gallery img {
+    flex-basis: 25%;
+}
+
+/* Syyling Mountain Landscape wider */
+.Gallery img:nth-of-type(3) {
+    flex-basis: 60%;
+}
+
+/* Styling Forest Landscape */
+.Gallery img:nth-of-type(4) {
+    flex-basis: 50%;
+}
+
+/* Styling johns old car" */
+.Gallery img:last-of-type {
+    width: 250px;
+    height: 250px;
+    flex: 0 0 250px;
+}
